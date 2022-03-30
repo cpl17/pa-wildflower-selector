@@ -53,13 +53,12 @@ A commonly missed step is not creating a directory for mongo to write to (this s
 
 ```
 mkdir -p ~/data/db
-sudo chown -R `id -un` ~/data/db
 ```
 
-Run a Mongo instance: 
+Run a Mongo instance (Keep this running): 
 
 ```
-sudo mongod --dbpath ~/data/db
+mongod --dbpath ~/data/db
 ```
 
 Open a new terminal to continue with instructions from here. 
